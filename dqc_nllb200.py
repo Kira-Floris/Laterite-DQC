@@ -114,3 +114,4 @@ def single_language(df, cols_name, languages, size=1000):
 if __name__=="__main__":
   new_df = single_language(df, ["en","rw"], ["English", "Kinyarwanda"], size=100)
   new_df.to_csv("/content/data-test.csv")
+
